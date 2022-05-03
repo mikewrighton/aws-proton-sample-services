@@ -22,7 +22,7 @@ exports.handler = async (event, context) => {
     // Create event object to return to caller
     const eventObj = {
       functionName: context.functionName,
-      SNS_Message: `Message ${sns_message} sent at ${date}`,
+      SNS_Message: `Message ${sns_message} sent at ${date}...`,
       SNS_Subject: 'New message from publisher',
     };
 
